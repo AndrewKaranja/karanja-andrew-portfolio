@@ -12,7 +12,8 @@ import {
 } from 'react-icons/fi';
 import { Link } from 'react-scroll';
 
-import barack from '../assets/images/project2.png';
+
+import andrew from '../assets/rigcomp.mp4';
 import resume from '../assets/Andrew Karanja CV.pdf';
 
 export default class Home extends Component {
@@ -100,7 +101,8 @@ export default class Home extends Component {
           </div>
           <div className='image-content-wrapper' data-aos='zoom-in'>
             <div className='image-wrapper'>
-              <img src={barack} alt='' className='home-image' />
+              {/* <img src={andrew} alt='' className='home-image' /> */}
+              <video src={andrew} alt='' className='home-image' loop autoplay="true" />
 
               <svg
                 version='1.0'

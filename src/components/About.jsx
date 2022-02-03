@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { IconContext } from 'react-icons';
 import { BiDownload } from 'react-icons/bi';
 import { BsCheckCircle } from 'react-icons/bs';
-import project from '../assets/images/project1.png';
+import project from '../assets/rigcomp.gif';
 import resume from '../assets/Andrew Karanja CV.pdf';
 import { Link } from 'react-scroll';
 
