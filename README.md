@@ -15,7 +15,7 @@ This website was designed with the tools below:
 
 **If you want to know more about how this website was designed, You can run the folowing commands in your terminal if you have git and nodejs already install on your computer**
 
-`git clone https://github.com/barackm/personal-portfolio`
+`git clone https://github.com/AndrewKaranja/karanja-andrew-portfolio`
 
 ## Available Scripts
 
