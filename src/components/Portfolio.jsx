@@ -3,6 +3,7 @@ import ProjectCard from "./common/ProjectCard";
 import project1 from "../assets/images/projects/kinga.png";
 import project2 from "../assets/images/projects/expensetracker.png";
 import project3 from "../assets/images/projects/kplayer.png";
+import project4 from "../assets/images/projects/3illboard.png";
 
 
 export default class Portfolio extends Component {
@@ -59,6 +60,22 @@ export default class Portfolio extends Component {
         sourceCodeLink: "https://github.com/AndrewKaranja/K-Player",
         technologies: [{ id: 1, name: "Android java" }],
         category_id: 2,
+        animation: "flip-left",
+      },
+      {
+        id: 4,
+        image: project4,
+        title: "3illboard",
+        description:
+          "A marketplace for ad spaces",
+        demoLink: "https://www.3illboard.com",
+        sourceCodeLink: "https://github.com/AndrewKaranja",
+        technologies: [
+        { id: 1, name: "React" },
+        { id: 2, name: "Firebase" },
+        { id: 3, name: "Cloud Functions" },
+        { id: 4, name: "Tailwind CSS" },],
+        category_id: 1,
         animation: "flip-left",
       },
     ];
