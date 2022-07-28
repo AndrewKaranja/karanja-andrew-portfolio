@@ -102,7 +102,7 @@ export default class Home extends Component {
           <div className='image-content-wrapper' data-aos='zoom-in'>
             <div className='image-wrapper'>
               {/* <img src={andrew} alt='' className='home-image' /> */}
-              <video src={andrew} alt='' className='home-image' loop autoplay="true" />
+              <video src={andrew} alt='' className='home-image' loop  autoplay="true" muted="true" />
 
               <svg
                 version='1.0'
@@ -568,14 +568,14 @@ export default class Home extends Component {
                   </IconContext.Provider>
                 </div>
                 <div className='experiance-text'>
-                  <h5>Experience</h5>
+                  {/* <h5>Experience</h5> */}
                   <div className='years-wrapper'>
                     <h2>
                       <IconContext.Provider value={{ className: 'check-icon' }}>
                         <AiOutlineCheck />
                       </IconContext.Provider>
                     </h2>{' '}
-                    <span>Strong</span>
+                    {/* <span>Strong</span> */}
                   </div>
                 </div>
               </div>
