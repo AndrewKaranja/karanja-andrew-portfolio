@@ -16,7 +16,7 @@ import SubmitBtn from "./common/SubmitBtn";
 import Texterea from "./common/Texterea";
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("xyylpkll");
+  const [state, handleSubmit] = useForm("mbjwgkvv");
 
   const Message = () => (
     <div className="contact-page-main-container" id="contact" name="contact">
@@ -124,7 +124,7 @@ export default function Contact() {
 
         <div className="contact-form-wrapper redirect-form-contact">
           <div className="form-submission-message">
-            Thanks for staying in touch! 😍 😍 😍 😍
+            Thanks you for contacting me!!! Will get back to you as soon as possible 
           </div>
           <div className="show-form-btn">
             Click
@@ -157,7 +157,7 @@ export default function Contact() {
           </h2>
 
           <p className="about-work" data-aos="fade-down">
-            Question, comment or concern? this contact form is the best way to
+            Question, comment or concern? My email is the best way to
             get in touch with me.
           </p>
 
