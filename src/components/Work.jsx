@@ -69,7 +69,7 @@ export default class Work extends Component {
                   />
                 </svg>
               </div>
-              <div className="text-wrapper">Mobile design</div>
+              <div className="text-wrapper">Mobile Development</div>
             </div>
             <div className="work-item-wrapper">
               <div className="icon-wrapper">
@@ -93,13 +93,13 @@ export default class Work extends Component {
             <h3 className="hero-hello">What I do</h3>
           </div>
           <h2 className="slogan" data-aos="fade-up">
-            Better Design,
-            <br /> Better experiences
+            Inventive,
+            <br /> Computer Scientist
           </h2>
 
           <p className="about-work" data-aos="fade-up">
-            I'm Building scalable web applications, Mobile apps and beautiful
-            websites for companies.
+            Building scalable web applications, Mobile apps and beautiful
+            websites as a hobby.
           </p>
         </div>
       </div>
