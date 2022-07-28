@@ -1,6 +1,6 @@
 import React, { Component, createRef } from "react";
 import { IconContext } from "react-icons";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaInstagram } from "react-icons/fa";
 import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
 // import MagnetMouse from "./utils/magnentMouse";
 import { Link } from "react-scroll";
