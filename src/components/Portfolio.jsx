@@ -19,6 +19,22 @@ export default class Portfolio extends Component {
     const { shownTab } = this.state;
     const projects = [
       {
+        id: 4,
+        image: project4,
+        title: "3illboard",
+        description:
+          "A marketplace for ad spaces",
+        demoLink: "https://www.3illboard.com",
+        sourceCodeLink: "https://github.com/AndrewKaranja",
+        technologies: [
+        { id: 1, name: "React" },
+        { id: 2, name: "Firebase" },
+        { id: 3, name: "Cloud Functions" },
+        { id: 4, name: "Tailwind CSS" },],
+        category_id: 1,
+        animation: "flip-left",
+      },
+      {
         id: 2,
         image: project1,
         title: "Kinga Sacco",
@@ -62,22 +78,7 @@ export default class Portfolio extends Component {
         category_id: 2,
         animation: "flip-left",
       },
-      {
-        id: 4,
-        image: project4,
-        title: "3illboard",
-        description:
-          "A marketplace for ad spaces",
-        demoLink: "https://www.3illboard.com",
-        sourceCodeLink: "https://github.com/AndrewKaranja",
-        technologies: [
-        { id: 1, name: "React" },
-        { id: 2, name: "Firebase" },
-        { id: 3, name: "Cloud Functions" },
-        { id: 4, name: "Tailwind CSS" },],
-        category_id: 1,
-        animation: "flip-left",
-      },
+     
     ];
 
     const webProjects = projects.filter((project) => project.category_id === 1);
