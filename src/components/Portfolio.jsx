@@ -4,6 +4,7 @@ import project1 from "../assets/images/projects/kinga.png";
 import project2 from "../assets/images/projects/expensetracker.png";
 import project3 from "../assets/images/projects/kplayer.png";
 import project4 from "../assets/images/projects/3illboard.png";
+import project5 from "../assets/images/projects/AutoRefresh.png";
 
 
 export default class Portfolio extends Component {
@@ -18,6 +19,21 @@ export default class Portfolio extends Component {
   render() {
     const { shownTab } = this.state;
     const projects = [
+      {
+        id: 5,
+        image: project5,
+        title: "AutoRefresh Extension",
+        description:
+          "Automatically refreshes the page after a specified interval.",
+        demoLink: "https://chrome.google.com/webstore/detail/auto-refresh/dlglmcikdpnfngglhdpmgpcodjbpjjlb?hl=en&authuser=4",
+        sourceCodeLink: "https://github.com/AndrewKaranja",
+        technologies: [
+        { id: 1, name: "Javascript" },
+        { id: 2, name: "Chrome extensions" },
+        { id: 3, name: "CSS" },],
+        category_id: 1,
+        animation: "flip-left",
+      },
       {
         id: 4,
         image: project4,
